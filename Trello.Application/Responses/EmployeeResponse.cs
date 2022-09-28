@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employee.Application.Responses
+namespace Trello.Application.Responses
 {
     public class EmployeeResponse
     {

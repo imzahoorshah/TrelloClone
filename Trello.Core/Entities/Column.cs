@@ -8,15 +8,14 @@ using System.Threading.Tasks;
 
 namespace Trello.Core.Entities
 {
-    public class Employee
+    public class Column
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public Int64 EmployeeId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public DateTime DateOfBirth { get; set; }
-        public string PhoneNumber { get; set; }
-        public string Email { get; set; }
+
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public List<Card> Cards { get; set; }
+        public DateTime? Creation { get; set; }
     }
 }

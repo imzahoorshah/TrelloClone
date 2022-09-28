@@ -1,5 +1,5 @@
-﻿using Employee.Application.Queries;
-using Employee.Core.Repositories;
+﻿using Trello.Application.Queries;
+using Trello.Core.Repositories;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Employee.Application.Handlers.QueryHandlers
+namespace Trello.Application.Handlers.QueryHandlers
 {
-    public class GetAllEmployeeHandler : IRequestHandler<GetAllEmployeeQuery, List<Employee.Core.Entities.Employee>>
+    public class GetAllEmployeeHandler : IRequestHandler<GetAllEmployeeQuery, List<Trello.Core.Entities.Employee>>
     {
         private readonly IEmployeeRepository _employeeRepo;
 

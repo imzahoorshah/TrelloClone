@@ -1,6 +1,6 @@
-﻿using Employee.Application.Commands;
-using Employee.Application.Queries;
-using Employee.Application.Responses;
+﻿using Trello.Application.Commands;
+using Trello.Application.Queries;
+using Trello.Application.Responses;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Employee.API.Controllers
+namespace Trello.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

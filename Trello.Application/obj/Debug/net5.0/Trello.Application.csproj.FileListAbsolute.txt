@@ -15,3 +15,11 @@ C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManag
 C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Trello.Application\obj\Debug\net5.0\Trello.Application.dll
 C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Trello.Application\obj\Debug\net5.0\ref\Trello.Application.dll
 C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Trello.Application\obj\Debug\net5.0\Trello.Application.pdb
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\Trello.Application.csprojAssemblyReference.cache
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\Trello.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\Trello.Application.AssemblyInfoInputs.cache
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\Trello.Application.AssemblyInfo.cs
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\Trello.Application.csproj.CoreCompileInputs.cache
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\Trello.Application.dll
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\ref\Trello.Application.dll
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\Trello.Application.pdb

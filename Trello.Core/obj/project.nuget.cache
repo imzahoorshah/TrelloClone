@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Y5ZlxMZ5+UUWS/ofZqwFdHur7P8S+OMF1LPPXjdJfsTYQOPaiK0RsdBQSCWEqd6Pio8MkfoicRX+5lE1HGUXw==",
+  "dgSpecHash": "n+hk9MehAqLcWpbF4qn2yC1DSNlRl5GOYfAjyzI6eRts3cuZf4mCEL+gvBoHpUEGiDBsDByIJTs2T+ycBqtNCA==",
   "success": true,
-  "projectFilePath": "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.Core\\Trello.Core.csproj",
+  "projectFilePath": "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.Core\\Trello.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

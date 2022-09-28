@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employee.Infrastructure.Data
+namespace Trello.Infrastructure.Data
 {
     public class EmployeeContext : DbContext
     {
@@ -14,6 +14,6 @@ namespace Employee.Infrastructure.Data
 
         }
 
-        public DbSet<Employee.Core.Entities.Employee> Employees { get; set; }
+        public DbSet<Trello.Core.Entities.Employee> Employees { get; set; }
     }
 }

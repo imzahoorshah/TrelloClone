@@ -1,5 +1,5 @@
-﻿using Employee.Core.Repositories.Base;
-using Employee.Infrastructure.Data;
+﻿using Trello.Core.Repositories.Base;
+using Trello.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employee.Infrastructure.Repositories.Base
+namespace Trello.Infrastructure.Repositories.Base
 {
     public class Repository<T> : IRepository<T> where T : class
     {

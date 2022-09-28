@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xDHwqKqUb/YCNnR7N+cTVGWw3KGSJU7wtFYYugT/OtBxKLSNazFxvXqAW76gjLh37ehPsK8i9tkgg5nNLRpGTQ==",
+  "dgSpecHash": "RgE3mMO9/EXFHCcu62pzATk8WLkzBxuI1HASvgvb4F5qQN8RA/lFRcGkek1sGIZkSw1BPowL48cVfKG+4TpM+w==",
   "success": true,
-  "projectFilePath": "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.Application\\Trello.Application.csproj",
+  "projectFilePath": "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.Application\\Trello.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",

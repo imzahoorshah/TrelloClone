@@ -6184,11 +6184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.API\\Trello.API.csproj",
+      "projectUniqueName": "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.API\\Trello.API.csproj",
       "projectName": "Trello.API",
-      "projectPath": "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.API\\Trello.API.csproj",
+      "projectPath": "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.API\\Trello.API.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.API\\obj\\",
+      "outputPath": "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6205,14 +6205,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.Application\\Trello.Application.csproj": {
-              "projectPath": "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.Application\\Trello.Application.csproj"
+            "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.Application\\Trello.Application.csproj": {
+              "projectPath": "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.Application\\Trello.Application.csproj"
             },
-            "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.Core\\Trello.Core.csproj": {
-              "projectPath": "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.Core\\Trello.Core.csproj"
+            "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.Core\\Trello.Core.csproj": {
+              "projectPath": "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.Core\\Trello.Core.csproj"
             },
-            "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.Infrastructure\\Trello.Infrastructure.csproj": {
-              "projectPath": "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.Infrastructure\\Trello.Infrastructure.csproj"
+            "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.Infrastructure\\Trello.Infrastructure.csproj": {
+              "projectPath": "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.Infrastructure\\Trello.Infrastructure.csproj"
             }
           }
         }

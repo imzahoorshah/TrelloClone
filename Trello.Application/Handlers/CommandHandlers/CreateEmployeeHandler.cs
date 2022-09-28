@@ -1,7 +1,7 @@
-﻿using Employee.Application.Commands;
-using Employee.Application.Mapper;
-using Employee.Application.Responses;
-using Employee.Core.Repositories;
+﻿using Trello.Application.Commands;
+using Trello.Application.Mapper;
+using Trello.Application.Responses;
+using Trello.Core.Repositories;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Employee.Application.Handlers.CommandHandlers
+namespace Trello.Application.Handlers.CommandHandlers
 {
 
     public class CreateEmployeeHandler : IRequestHandler<CreateEmployeeCommand, EmployeeResponse>

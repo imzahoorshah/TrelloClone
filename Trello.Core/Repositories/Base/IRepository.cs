@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employee.Core.Repositories.Base
+namespace Trello.Core.Repositories.Base
 {
     public interface IRepository<T> where T : class
     {

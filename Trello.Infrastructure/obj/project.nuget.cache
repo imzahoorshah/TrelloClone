@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D1C/UgEUy73N8Oi4kDs3c2wl0VNt0BWEKprWdutw6vaIYGXqY9dUsl9xL+DwUDUvkKBXJA25+/h9HhGoPaCOEg==",
+  "dgSpecHash": "h5y8rOl/Qj8WGLsmC8dp2teRDAUpwCE0UhKDi61KQYURLUeyi9WmVyCOxLAjYTwZqBMaGKmRqDYL8Essm3FzOg==",
   "success": true,
-  "projectFilePath": "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.Infrastructure\\Trello.Infrastructure.csproj",
+  "projectFilePath": "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.Infrastructure\\Trello.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

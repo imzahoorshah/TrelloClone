@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using Employee.Application.Commands;
-using Employee.Application.Responses;
+using Trello.Application.Commands;
+using Trello.Application.Responses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employee.Application.Mapper
+namespace Trello.Application.Mapper
 {
     public class EmployeeMappingProfile : Profile
     {

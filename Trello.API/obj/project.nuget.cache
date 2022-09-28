@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IRYYMRrXBWsrXVEqg0m3eTH3ZxxJVJe96C8VvhXm9hpgbIepwXxcV3EJ0NpqKgyYBlcxhZ7O6QYaWk3v1KIRWQ==",
+  "dgSpecHash": "s/EOG1KAi24o2buJCgltzdVTZ3IMwRMKmybCiUhyxhh4dN1drwnnby1j6KvaSU0bayV7YmKk3URLtUgf4/RxUQ==",
   "success": true,
-  "projectFilePath": "C:\\Zahoorz\\Clean Code Examples\\EmployeeManagementCleanArchitecture\\EmployeeManagementCleanArchitecture\\Trello.API\\Trello.API.csproj",
+  "projectFilePath": "C:\\Zahoorz\\Clean Code Examples\\Test\\TrelloClone\\Trello.API\\Trello.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

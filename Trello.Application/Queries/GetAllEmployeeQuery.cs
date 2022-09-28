@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Trello.Application.Queries
 {
-    public class GetAllEmployeeQuery : IRequest<List<Employee.Core.Entities.Employee>>
+    public class GetAllEmployeeQuery : IRequest<List<Trello.Core.Entities.Employee>>
     {
 
     }

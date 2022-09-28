@@ -23,7 +23,7 @@ namespace Trello.API.Controllers
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<List<Employee.Core.Entities.Employee>> Get()
+        public async Task<List<Trello.Core.Entities.Employee>> Get()
         {
             return await _mediator.Send(new GetAllEmployeeQuery());
         }

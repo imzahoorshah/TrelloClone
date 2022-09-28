@@ -13,8 +13,8 @@ namespace Trello.Application.Mapper
     {
         public EmployeeMappingProfile()
         {
-            CreateMap<Employee.Core.Entities.Employee, EmployeeResponse>().ReverseMap();
-            CreateMap<Employee.Core.Entities.Employee, CreateEmployeeCommand>().ReverseMap();
+            CreateMap<Trello.Core.Entities.Employee, EmployeeResponse>().ReverseMap();
+            CreateMap<Trello.Core.Entities.Employee, CreateEmployeeCommand>().ReverseMap();
         }
     }
 }

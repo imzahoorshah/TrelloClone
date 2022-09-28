@@ -23,3 +23,12 @@ C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\Trello.Application.dll
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\ref\Trello.Application.dll
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\Trello.Application.pdb
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\bin\Debug\net5.0\Trello.Application.deps.json
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\bin\Debug\net5.0\Trello.Application.dll
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\bin\Debug\net5.0\ref\Trello.Application.dll
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\bin\Debug\net5.0\Trello.Application.pdb
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\bin\Debug\net5.0\Trello.Core.dll
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\bin\Debug\net5.0\Trello.Infrastructure.dll
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\bin\Debug\net5.0\Trello.Core.pdb
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\bin\Debug\net5.0\Trello.Infrastructure.pdb
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Application\obj\Debug\net5.0\Trello.Application.csproj.CopyComplete

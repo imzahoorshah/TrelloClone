@@ -23,7 +23,7 @@ namespace Trello.Application.Handlers.CommandHandlers
         }
         public async Task<EmployeeResponse> Handle(CreateEmployeeCommand request, CancellationToken cancellationToken)
         {
-            var employeeEntitiy = EmployeeMapper.Mapper.Map<Employee.Core.Entities.Employee>(request);
+            var employeeEntitiy = EmployeeMapper.Mapper.Map<Trello.Core.Entities.Employee>(request);
             if(employeeEntitiy is null)
             {
                 throw new ApplicationException("Issue with mapper");

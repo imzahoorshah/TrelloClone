@@ -1,9 +1,9 @@
-using Employee.Application.Handlers.CommandHandlers;
-using Employee.Core.Repositories;
-using Employee.Core.Repositories.Base;
-using Employee.Infrastructure.Data;
-using Employee.Infrastructure.Repositories;
-using Employee.Infrastructure.Repositories.Base;
+using Trello.Application.Handlers.CommandHandlers;
+using Trello.Core.Repositories;
+using Trello.Core.Repositories.Base;
+using Trello.Infrastructure.Data;
+using Trello.Infrastructure.Repositories;
+using Trello.Infrastructure.Repositories.Base;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Trello.Application.Queries
 {
-    public class GetAllEmployeeQuery : IRequest<List<Trello.Core.Entities.Employee>>
+    public class GetAllCardsQuery : IRequest<List<Trello.Core.Entities.Card>>
     {
 
     }

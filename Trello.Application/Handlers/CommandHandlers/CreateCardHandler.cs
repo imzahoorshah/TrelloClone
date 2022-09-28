@@ -13,23 +13,23 @@ using System.Threading.Tasks;
 namespace Trello.Application.Handlers.CommandHandlers
 {
 
-    public class CreateEmployeeHandler : IRequestHandler<CreateEmployeeCommand, EmployeeResponse>
+    public class CreateCardHandler : IRequestHandler<CreateCardCommand, CardResponse>
     {
-        private readonly IEmployeeRepository _employeeRepo;
+        private readonly ICardRepository _employeeRepo;
 
-        public CreateEmployeeHandler(IEmployeeRepository employeeRepository)
+        public CreateCardHandler(ICardRepository employeeRepository)
         {
             _employeeRepo = employeeRepository;
         }
-        public async Task<EmployeeResponse> Handle(CreateEmployeeCommand request, CancellationToken cancellationToken)
+        public async Task<CardResponse> Handle(CreateCardCommand request, CancellationToken cancellationToken)
         {
-            var employeeEntitiy = EmployeeMapper.Mapper.Map<Trello.Core.Entities.Employee>(request);
+            var employeeEntitiy = CardMapper.Mapper.Map<Trello.Core.Entities.Card>(request);
             if(employeeEntitiy is null)
             {
                 throw new ApplicationException("Issue with mapper");
             }
             var newEmployee = await _employeeRepo.AddAsync(employeeEntitiy);
-            var employeeResponse = EmployeeMapper.Mapper.Map<EmployeeResponse>(newEmployee);
+            var employeeResponse = CardMapper.Mapper.Map<CardResponse>(newEmployee);
             return employeeResponse;
         }
     }

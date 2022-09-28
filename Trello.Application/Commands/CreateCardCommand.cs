@@ -1,14 +1,15 @@
-﻿using System;
+﻿using Trello.Application.Responses;
+using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Trello.Application.Responses
+namespace Trello.Application.Commands
 {
-    public class EmployeeResponse
+    public class CreateCardCommand : IRequest<CardResponse> 
     {
-        public int EmployeeId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }

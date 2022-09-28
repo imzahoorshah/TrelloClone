@@ -37,16 +37,16 @@ namespace Employee.API
         {
 
             services.AddControllers();
-            services.AddDbContext<EmployeeContext>(
+            services.AddDbContext<TrelloContext>(
                  m => m.UseSqlServer(Configuration.GetConnectionString("TrelloDB")), ServiceLifetime.Singleton);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Trello.API", Version = "v1" });
             });
             services.AddAutoMapper(typeof(Startup));
-            services.AddMediatR(typeof(CreateEmployeeHandler).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(CreateCardHandler).GetTypeInfo().Assembly);
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+            services.AddTransient<ICardRepository, CardRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

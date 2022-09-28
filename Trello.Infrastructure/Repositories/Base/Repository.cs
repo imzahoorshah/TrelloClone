@@ -11,9 +11,9 @@ namespace Trello.Infrastructure.Repositories.Base
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        protected readonly EmployeeContext _employeeContext;
+        protected readonly TrelloContext _employeeContext;
 
-        public Repository(EmployeeContext employeeContext)
+        public Repository(TrelloContext employeeContext)
         {
             _employeeContext = employeeContext;
         }

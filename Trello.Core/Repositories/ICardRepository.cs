@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Trello.Core.Repositories
 {
-    public interface IEmployeeRepository : IRepository<Trello.Core.Entities.Employee>
+    public interface ICardRepository : IRepository<Trello.Core.Entities.Card>
     {
         //custom operations here
-        Task<IEnumerable<Trello.Core.Entities.Employee>> GetEmployeeByLastName(string lastname);
+        Task<IEnumerable<Trello.Core.Entities.Card>> GetEmployeeByLastName(string lastname);
     }
 }

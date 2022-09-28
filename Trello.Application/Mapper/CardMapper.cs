@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Trello.Application.Mapper
 {
-    public class EmployeeMapper
+    public class CardMapper
     {
         private static readonly Lazy<IMapper> Lazy = new Lazy<IMapper>(() =>
         {
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.ShouldMapProperty = p => p.GetMethod.IsPublic || p.GetMethod.IsAssembly;
-                cfg.AddProfile<EmployeeMappingProfile>();
+                cfg.AddProfile<CardMappingProfile>();
             });
             var mapper = config.CreateMapper();
             return mapper;

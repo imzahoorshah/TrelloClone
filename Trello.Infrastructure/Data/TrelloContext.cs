@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Trello.Infrastructure.Data
 {
-    public class EmployeeContext : DbContext
+    public class TrelloContext : DbContext
     {
-        public EmployeeContext(DbContextOptions<EmployeeContext> options) : base (options)
+        public TrelloContext(DbContextOptions<TrelloContext> options) : base (options)
         {
 
         }
 
-        public DbSet<Trello.Core.Entities.Employee> Employees { get; set; }
+        public DbSet<Trello.Core.Entities.Card> Cards { get; set; }
     }
 }

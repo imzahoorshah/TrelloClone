@@ -13,23 +13,23 @@ namespace Trello.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EmployeeController : ControllerBase
+    public class CardController : ControllerBase
     {
         private readonly IMediator _mediator;
-        public EmployeeController(IMediator mediator)
+        public CardController(IMediator mediator)
         {
             _mediator = mediator;
         }
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<List<Trello.Core.Entities.Employee>> Get()
+        public async Task<List<Trello.Core.Entities.Card>> Get()
         {
-            return await _mediator.Send(new GetAllEmployeeQuery());
+            return await _mediator.Send(new GetAllCardsQuery());
         }
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<ActionResult<EmployeeResponse>> CreateEmployee([FromBody] CreateEmployeeCommand command)
+        public async Task<ActionResult<CardResponse>> CreateCard([FromBody] CreateCardCommand command)
         {
             var result = await _mediator.Send(command);
             return Ok(result);

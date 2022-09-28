@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Trello.Application.Mapper
 {
-    public class EmployeeMappingProfile : Profile
+    public class CardMappingProfile : Profile
     {
-        public EmployeeMappingProfile()
+        public CardMappingProfile()
         {
-            CreateMap<Trello.Core.Entities.Employee, EmployeeResponse>().ReverseMap();
-            CreateMap<Trello.Core.Entities.Employee, CreateEmployeeCommand>().ReverseMap();
+            CreateMap<Trello.Core.Entities.Employee, CardResponse>().ReverseMap();
+            CreateMap<Trello.Core.Entities.Employee, CreateCardCommand>().ReverseMap();
         }
     }
 }

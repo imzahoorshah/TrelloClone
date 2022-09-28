@@ -1,0 +1,24 @@
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\Employee.Core.deps.json
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\Employee.Core.dll
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\ref\Employee.Core.dll
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\Employee.Core.pdb
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.GeneratedMSBuildEditorConfig.editorconfig
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.AssemblyInfoInputs.cache
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.AssemblyInfo.cs
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.csproj.CoreCompileInputs.cache
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.dll
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\ref\Employee.Core.dll
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.pdb
+H:\Practise\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.csproj.AssemblyReference.cache
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\Employee.Core.deps.json
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\Employee.Core.dll
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\ref\Employee.Core.dll
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\Employee.Core.pdb
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.AssemblyInfoInputs.cache
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.AssemblyInfo.cs
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.csproj.CoreCompileInputs.cache
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.dll
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\ref\Employee.Core.dll
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.pdb
+C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\Employee.Core.csprojAssemblyReference.cache

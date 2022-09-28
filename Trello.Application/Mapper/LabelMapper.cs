@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Trello.Application.Mapper
 {
-    public class CardMapper
+    public class LabelMapper
     {
         private static readonly Lazy<IMapper> Lazy = new Lazy<IMapper>(() =>
         {

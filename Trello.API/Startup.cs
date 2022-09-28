@@ -44,9 +44,17 @@ namespace Employee.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Trello.API", Version = "v1" });
             });
             services.AddAutoMapper(typeof(Startup));
+            services.AddMediatR(typeof(CreateBoardHandler).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(CreateLabelHandler).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(CreateColumnHandler).GetTypeInfo().Assembly);
             services.AddMediatR(typeof(CreateCardHandler).GetTypeInfo().Assembly);
+            
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<ICardRepository, CardRepository>();
+            services.AddTransient<IBoardRepository, BoardRepository>();
+            services.AddTransient<ILabelRepository, LabelRepository>();
+            services.AddTransient<IColumnRepository, ColumnRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

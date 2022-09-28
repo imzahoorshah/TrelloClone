@@ -11,16 +11,16 @@ using Trello.Core.Entities;
 
 namespace Trello.Infrastructure.Repositories
 {
-    public class CardRepository : Repository<Trello.Core.Entities.Card>, ICardRepository
+    public class BoardRepository : Repository<Trello.Core.Entities.Board>, IBoardRepository
     {
-        public CardRepository(TrelloContext trelloContext) : base(trelloContext)
+        public BoardRepository(TrelloContext trelloContext) : base(trelloContext)
         {
 
         }
 
-        async Task<IEnumerable<Card>> ICardRepository.GetEmployeeByLastName(string lastname)
+        async Task<IEnumerable<Board>> IBoardRepository.GetEmployeeByLastName(string lastname)
         {
-            return await _trelloContext.Cards
+            return await _trelloContext.Board
                  .Where(m => m.Name == lastname)
                  .ToListAsync();
         }

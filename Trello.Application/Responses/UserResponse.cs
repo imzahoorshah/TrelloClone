@@ -1,18 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trello.Core.Entities;
 
-namespace Trello.Core.Entities
+namespace Trello.Application.Responses
 {
-  public  class User
+    public class UserResponse
     {
-		[Key]
-		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-
 		public Int64 UserId { get; set; }
 		public string Name { get; set; }
 		public string Description { get; set; }

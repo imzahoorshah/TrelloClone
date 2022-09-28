@@ -8,21 +8,22 @@ using System.Threading.Tasks;
 
 namespace Trello.Core.Entities
 {
-   public  class Board
+    public class Board
     {
-		[Key]
-		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
-		public string Name { get; set; }
-		public string Description { get; set; }
-		public bool? IsClosed { get; set; }
-		public bool? IsPinned { get; set; }
-		public bool? IsStarred { get; set; }
-		public bool? IsSubscribed { get; set; }	 
-		public List<Column> Columns { get; set; }
-		public string Url { get; set; }
-		public DateTime? LastActivity { get; set; }
-		public DateTime? LastViewed { get; set; }
-		public DateTime? Creation { get; set; } 
-	}
+        public Int64 BoardId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public bool? IsClosed { get; set; }
+        public bool? IsPinned { get; set; }
+        public bool? IsStarred { get; set; }
+        public bool? IsSubscribed { get; set; }
+        public List<Column> Columns { get; set; }
+        public string Url { get; set; }
+        public DateTime? LastActivity { get; set; }
+        public DateTime? LastViewed { get; set; }
+        public DateTime? Creation { get; set; }
+    }
 }

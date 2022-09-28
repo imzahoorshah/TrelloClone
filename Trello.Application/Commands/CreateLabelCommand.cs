@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trello.Application.Responses;
 
-namespace Trello.Application.Queries
+namespace Trello.Application.Commands
 {
-    public class GetAllCardsQuery : IRequest<List<Trello.Core.Entities.Card>>
+    public class CreateLabelCommand : IRequest<LabelResponse>
     {
-
     }
 }

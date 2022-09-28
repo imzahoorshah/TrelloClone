@@ -14,6 +14,10 @@ namespace Trello.Infrastructure.Data
 
         }
 
+        public DbSet<Trello.Core.Entities.Board> Board { get; set; }
         public DbSet<Trello.Core.Entities.Card> Cards { get; set; }
+        public DbSet<Trello.Core.Entities.Column> Column { get; set; }
+        public DbSet<Trello.Core.Entities.Label> Label { get; set; }
+        public DbSet<Trello.Core.Entities.User> User { get; set; }
     }
 }

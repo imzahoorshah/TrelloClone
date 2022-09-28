@@ -13,6 +13,7 @@ namespace Trello.Core.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
+        public Int64 CardId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public User User { get; set; }
@@ -20,7 +21,7 @@ namespace Trello.Core.Entities
         public bool? IsArchived { get; set; }
         public bool? IsComplete { get; set; }
         public bool? IsSubscribed { get; set; }
-        public DateTime? LastActivity { get; set; } 
+        public DateTime? LastActivity { get; set; }
         public DateTime? CreationDate { get; set; }
         public List<Label> Tags { get; set; }
     }

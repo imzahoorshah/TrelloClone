@@ -1,8 +1,7 @@
 # TrelloClone by Zahoor Shah
 [![Build Trello](https://github.com/imzahoorshah/TrelloClone/actions/workflows/build.yml/badge.svg)](https://github.com/imzahoorshah/TrelloClone/actions/workflows/build.yml)
 
-# Event Sourcing and CQRS Examples
-Problem statement 3: Trello Clone
+# Problem statement 3: Trello Clone 
 
 We are building an enhanced trello.com clone which will allow users to collaborate over a shared board. Every board has multiple columns. Users can create / update / delete "cards". They can also move cards between columns. Cards can have one more or labels
 Our clone allows users to do a new functionality. When a user visits a board it also highlights cards which have been created / modified since the last time they accessed the board. This allows the users to quickly understand what has changed

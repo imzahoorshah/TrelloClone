@@ -20,4 +20,9 @@ namespace Trello.Application.Queries
     {
         public Int64 Label { get; set; }
     }
+
+    public class GetCardsByTimeQuery : IRequest<List<Trello.Core.Entities.Card>>
+    {
+        public DateTime CreatedOn { get; set; }
+    }
 }

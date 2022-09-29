@@ -26,12 +26,19 @@ namespace Trello.Infrastructure.Repositories
         }
 
         async Task<IEnumerable<Card>> ICardRepository.GetCardByTag(long LabelId)
-        { 
+        {
             var cardList = await (from cards in _trelloContext.Cards
-                            join labels in _trelloContext.Label on cards.CardId equals labels.CardId
-                            where labels.LabelId == LabelId
-                            select cards).ToListAsync();
+                                  join labels in _trelloContext.Label on cards.CardId equals labels.CardId
+                                  where labels.LabelId == LabelId
+                                  select cards).ToListAsync();
             return cardList;
+        }
+
+        async Task<IEnumerable<Card>> ICardRepository.GetCardByTime(DateTime CreatedOn)
+        {
+            return await _trelloContext.Cards
+                .Where(m => m.CreationDate >= CreatedOn)
+                .ToListAsync();
         }
 
         async Task<Card> ICardRepository.GetCardById(long Id)

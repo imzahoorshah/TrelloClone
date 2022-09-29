@@ -11,23 +11,23 @@ using Trello.Core.Entities;
 
 namespace Trello.Application.Handlers.QueryHandlers
 {
-    public class SearchCardByTimeHandler : IRequestHandler<GetCardsByTimeQuery, List<Trello.Core.Entities.Card>>
+    public class SearchCardByCloumnHandler : IRequestHandler<GetCardsByColumnQuery, List<Trello.Core.Entities.Card>>
     {
         private readonly ICardRepository _cardRepo;
         private readonly ILabelRepository _labelRepo;
         private readonly IUserRepository _userRepo;
 
-        public SearchCardByTimeHandler(ICardRepository cardRepository, ILabelRepository labelRepository, IUserRepository userRepository)
+        public SearchCardByCloumnHandler(ICardRepository cardRepository, ILabelRepository labelRepository, IUserRepository userRepository)
         {
             _cardRepo = cardRepository;
             _labelRepo = labelRepository;
             _userRepo = userRepository;
         }
-        public async Task<List<Core.Entities.Card>> Handle(GetCardsByTimeQuery request, CancellationToken cancellationToken)
+        public async Task<List<Core.Entities.Card>> Handle(GetCardsByColumnQuery request, CancellationToken cancellationToken)
         {
             try
             {
-                var cards = (List<Card>)await Task.Run(() => _cardRepo.GetCardByTime(request.CreatedOn));
+                var cards = (List<Card>)await Task.Run(() => _cardRepo.GetCardByColumnId(request.ColumnId));
                 if (cards != null)
                 {
                     foreach (var card in cards)

@@ -41,14 +41,17 @@ namespace Trello.Infrastructure.Repositories
                 .ToListAsync();
         }
 
-        async Task<Card> ICardRepository.GetCardById(long Id)
+        async Task<Card> ICardRepository.GetCardById(long UserId)
         {
             throw new NotImplementedException();
         }
 
         async Task<IEnumerable<Card>> ICardRepository.GetCardByUserId(long UserId)
         {
-            throw new NotImplementedException();
+            return await _trelloContext.Cards
+               .Where(m => m.UserId >= UserId)
+               .ToListAsync();
+          
         }
 
 

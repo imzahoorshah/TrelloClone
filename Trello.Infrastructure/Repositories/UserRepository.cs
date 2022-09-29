@@ -16,9 +16,7 @@ namespace Trello.Infrastructure.Repositories
         public UserRepository(TrelloContext trelloContext) : base(trelloContext)
         {
 
-        }
-
-        
+        } 
         async Task<User> IUserRepository.GetUserById(Int64 Id)
         {
             return await _trelloContext.User

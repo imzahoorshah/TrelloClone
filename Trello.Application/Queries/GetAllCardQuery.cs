@@ -25,4 +25,9 @@ namespace Trello.Application.Queries
     {
         public DateTime CreatedOn { get; set; }
     }
+
+    public class GetCardsByUserQuery : IRequest<List<Trello.Core.Entities.Card>>
+    {
+        public Int64 UserId { get; set; }
+    }
 }

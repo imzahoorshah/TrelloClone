@@ -52,6 +52,14 @@ namespace Trello.API.Controllers
             return await _mediator.Send(query);
         }
 
+        [Route("[action]")]
+        [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<List<Trello.Core.Entities.Card>> SearchCardByUser([FromQuery] GetCardsByUserQuery query)
+        {
+            return await _mediator.Send(query);
+        }
+
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<CardResponse>> CreateCard([FromBody] CreateCardCommand command)

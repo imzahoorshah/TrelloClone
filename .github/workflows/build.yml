@@ -20,7 +20,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no      
+      run: dotnet build --no-      
     - name:  Upload artifacts
       uses: actions/upload-artifact@v2
       with: 

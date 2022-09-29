@@ -27,7 +27,7 @@ namespace Trello.Application.Handlers.CommandHandlers
             if(cardEntitiy is null)
             {
                 throw new ApplicationException("Issue with mapper");
-            }
+            } 
             var newCard = await _cardRepo.AddAsync(cardEntitiy);
             var cardResponse = CardMapper.Mapper.Map<CardResponse>(newCard);
             return cardResponse;

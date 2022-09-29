@@ -11,6 +11,6 @@ namespace Trello.Core.Repositories
     public interface IBoardRepository : IRepository<Trello.Core.Entities.Board>
     {
         //custom operations here
-        Task<IEnumerable<Trello.Core.Entities.Board>> GetEmployeeByLastName(string lastname);
+        Task<IEnumerable<Trello.Core.Entities.Board>> GetBoardById(Int64 Id);
     }
 }

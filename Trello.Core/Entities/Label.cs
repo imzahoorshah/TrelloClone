@@ -14,6 +14,7 @@ namespace Trello.Core.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
         public Int64 LabelId { get; set; }
+        public Int64 CardId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
     }

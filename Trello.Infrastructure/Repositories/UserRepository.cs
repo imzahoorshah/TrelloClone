@@ -18,11 +18,11 @@ namespace Trello.Infrastructure.Repositories
 
         }
 
-        async Task<IEnumerable<User>> IUserRepository.GetEmployeeByLastName(string lastname)
+        
+        async Task<User> IUserRepository.GetUserById(Int64 Id)
         {
             return await _trelloContext.User
-                 .Where(m => m.Name == lastname)
-                 .ToListAsync();
-        }
+                 .Where(m => m.UserId == Id).FirstOrDefaultAsync();
+        }  
     }
 }

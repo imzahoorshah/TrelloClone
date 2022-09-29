@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trello.Core.Entities;
 
 namespace Trello.Application.Mapper
 {
@@ -13,18 +14,21 @@ namespace Trello.Application.Mapper
     {
         public MappingProfile()
         {
-            CreateMap<Trello.Core.Entities.Card, CardResponse>().ReverseMap();
-            CreateMap<Trello.Core.Entities.Card, CreateCardCommand>().ReverseMap();
+            CreateMap<Card, CardResponse>().ReverseMap();
+            CreateMap<Card, CreateCardCommand>().ReverseMap();
 
 
-            CreateMap<Trello.Core.Entities.Label, LabelResponse>().ReverseMap();
-            CreateMap<Trello.Core.Entities.Label, CreateLabelCommand>().ReverseMap();
+            CreateMap<Label, LabelResponse>().ReverseMap();
+            CreateMap<Label, CreateLabelCommand>().ReverseMap();
 
-            CreateMap<Trello.Core.Entities.Board, BoardResponse>().ReverseMap();
-            CreateMap<Trello.Core.Entities.Board, CreateBoardCommand>().ReverseMap();
+            CreateMap<Board, BoardResponse>().ReverseMap();
+            CreateMap<Board, CreateBoardCommand>().ReverseMap();
 
-            CreateMap<Trello.Core.Entities.Column, ColumnResponse>().ReverseMap();
-            CreateMap<Trello.Core.Entities.Column, CreateColumnCommand>().ReverseMap();
+            CreateMap<Column, ColumnResponse>().ReverseMap();
+            CreateMap<Column, CreateColumnCommand>().ReverseMap();
+
+            CreateMap<User, UserResponse>().ReverseMap();
+            CreateMap<User, CreateUserCommand>().ReverseMap();
         }
     }
 }

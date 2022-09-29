@@ -71,6 +71,12 @@ C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManag
 C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Trello.API\obj\Debug\net5.0\ref\Trello.API.dll
 C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Trello.API\obj\Debug\net5.0\Trello.API.pdb
 C:\Zahoorz\Clean Code Examples\EmployeeManagementCleanArchitecture\EmployeeManagementCleanArchitecture\Trello.API\obj\Debug\net5.0\Trello.API.genruntimeconfig.cache
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.csprojAssemblyReference.cache
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.AssemblyInfoInputs.cache
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.AssemblyInfo.cs
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.csproj.CoreCompileInputs.cache
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\bin\Debug\net5.0\appsettings.Development.json
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\bin\Debug\net5.0\appsettings.json
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\bin\Debug\net5.0\Trello.API.exe
@@ -128,13 +134,7 @@ C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\bin\Debug\net5.0\Trel
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\bin\Debug\net5.0\Trello.Application.pdb
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\bin\Debug\net5.0\Trello.Core.pdb
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\bin\Debug\net5.0\Trello.Infrastructure.pdb
-C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.csprojAssemblyReference.cache
-C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.AssemblyInfoInputs.cache
-C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.AssemblyInfo.cs
-C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.csproj.CoreCompileInputs.cache
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\Trello.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\staticwebassets\Trello.API.StaticWebAssets.Manifest.cache
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\staticwebassets\Trello.API.StaticWebAssets.xml
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.API\obj\Debug\net5.0\scopedcss\bundle\Trello.API.styles.css

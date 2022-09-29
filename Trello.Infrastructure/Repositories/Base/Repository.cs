@@ -35,7 +35,7 @@ namespace Trello.Infrastructure.Repositories.Base
             return await _trelloContext.Set<T>().ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(int id)
+        public async Task<T> GetByIdAsync(Int64 id)
         {
             return await _trelloContext.Set<T>().FindAsync(id);
         }

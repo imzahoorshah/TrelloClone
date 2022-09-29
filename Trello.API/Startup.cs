@@ -48,7 +48,8 @@ namespace Employee.API
             services.AddMediatR(typeof(CreateLabelHandler).GetTypeInfo().Assembly);
             services.AddMediatR(typeof(CreateColumnHandler).GetTypeInfo().Assembly);
             services.AddMediatR(typeof(CreateCardHandler).GetTypeInfo().Assembly);
-            
+            services.AddMediatR(typeof(CreateUserHandler).GetTypeInfo().Assembly);
+
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<ICardRepository, CardRepository>();
             services.AddTransient<IBoardRepository, BoardRepository>();

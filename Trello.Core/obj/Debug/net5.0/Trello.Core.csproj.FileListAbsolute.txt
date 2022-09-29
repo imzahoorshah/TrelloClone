@@ -14,7 +14,6 @@ C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\bin\Debug\net5.0\Tre
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\bin\Debug\net5.0\Trello.Core.dll
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\bin\Debug\net5.0\ref\Trello.Core.dll
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\bin\Debug\net5.0\Trello.Core.pdb
-C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\obj\Debug\net5.0\Trello.Core.csprojAssemblyReference.cache
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\obj\Debug\net5.0\Trello.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\obj\Debug\net5.0\Trello.Core.AssemblyInfoInputs.cache
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\obj\Debug\net5.0\Trello.Core.AssemblyInfo.cs
@@ -22,3 +21,4 @@ C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\obj\Debug\net5.0\Tre
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\obj\Debug\net5.0\Trello.Core.dll
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\obj\Debug\net5.0\ref\Trello.Core.dll
 C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\obj\Debug\net5.0\Trello.Core.pdb
+C:\Zahoorz\Clean Code Examples\Test\TrelloClone\Trello.Core\obj\Debug\net5.0\Trello.Core.csprojAssemblyReference.cache

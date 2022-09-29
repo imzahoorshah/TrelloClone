@@ -4,11 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trello.Core.Entities;
 
 namespace Trello.Application.Queries
 {
-    public class GetAllBoardQuery : IRequest<List<Trello.Core.Entities.Board>>
+    public class GetBoardQuery : IRequest<Board>
     {
-
+        public Int64 BoardId { get; init; } 
     }
 }

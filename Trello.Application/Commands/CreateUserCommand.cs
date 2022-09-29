@@ -1,19 +1,16 @@
-﻿using System;
+﻿using Trello.Application.Responses;
+using MediatR;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trello.Core.Entities;
 
-namespace Trello.Core.Entities
+namespace Trello.Application.Commands
 {
-  public  class User
-    {
-		[Key]
-		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-
-		public Int64 UserId { get; set; } 
+    public class CreateUserCommand : IRequest<UserResponse> 
+    { 
 		public string Name { get; set; }
 		public string Description { get; set; }
 		public string DisplayName { get; set; }

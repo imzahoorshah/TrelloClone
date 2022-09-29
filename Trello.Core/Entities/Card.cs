@@ -14,15 +14,17 @@ namespace Trello.Core.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
         public Int64 CardId { get; set; }
+        public Int64 ColumnId { get; set; }
+        public Int64 UserId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public User User { get; set; }
+        public User User { get; set; } = new User();
         public DateTime? DueDate { get; set; }
         public bool? IsArchived { get; set; }
         public bool? IsComplete { get; set; }
         public bool? IsSubscribed { get; set; }
         public DateTime? LastActivity { get; set; }
         public DateTime? CreationDate { get; set; }
-        public List<Label> Tags { get; set; }
+        public List<Label> Tags { get; set; } = new List<Label>();
     }
 }

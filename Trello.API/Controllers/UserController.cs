@@ -8,32 +8,28 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Trello.Core.Entities;
 
 namespace Trello.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BoardController : ControllerBase
+    public class UserController : ControllerBase
     {
         private readonly IMediator _mediator;
-        public BoardController(IMediator mediator)
+        public UserController(IMediator mediator)
         {
             _mediator = mediator;
         }
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<Board> Get([FromQuery] GetBoardQuery query)
+        public async Task<List<Trello.Core.Entities.User>> Get()
         {
-            return await _mediator.Send(query);
+            return await _mediator.Send(new GetAllUserQuery());
         }
- 
-
-
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<ActionResult<BoardResponse>> CreateBoard([FromBody] CreateBoardCommand command)
+        public async Task<ActionResult<UserResponse>> CreateUser([FromBody] CreateUserCommand command)
         {
             var result = await _mediator.Send(command);
             return Ok(result);

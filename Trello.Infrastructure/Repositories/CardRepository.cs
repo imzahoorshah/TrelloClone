@@ -11,18 +11,30 @@ using Trello.Core.Entities;
 
 namespace Trello.Infrastructure.Repositories
 {
-    public class CardRepository : Repository<Trello.Core.Entities.Card>, ICardRepository
+    public class CardRepository : Repository<Card>, ICardRepository
     {
         public CardRepository(TrelloContext trelloContext) : base(trelloContext)
         {
 
         }
 
-        async Task<IEnumerable<Card>> ICardRepository.GetEmployeeByLastName(string lastname)
+        async Task<IEnumerable<Card>> ICardRepository.GetCardByColumnId(long ColumnId)
         {
             return await _trelloContext.Cards
-                 .Where(m => m.Name == lastname)
-                 .ToListAsync();
+                .Where(m => m.ColumnId == ColumnId)
+                .ToListAsync();
         }
+
+        async Task<Card> ICardRepository.GetCardById(long Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        async Task<IEnumerable<Card>> ICardRepository.GetCardByUserId(long UserId)
+        {
+            throw new NotImplementedException();
+        }
+
+        
     }
 }

@@ -1,15 +1,17 @@
-﻿using Trello.Core.Repositories.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trello.Core.Entities;
+using Trello.Core.Repositories.Base;
 
 namespace Trello.Core.Repositories
 {
+
     public interface IUserRepository : IRepository<Trello.Core.Entities.User>
     {
         //custom operations here
-        Task<IEnumerable<Trello.Core.Entities.User>> GetEmployeeByLastName(string lastname);
+        Task<User> GetUserById(Int64 Id);
     }
 }

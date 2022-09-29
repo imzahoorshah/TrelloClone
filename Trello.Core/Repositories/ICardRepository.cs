@@ -4,12 +4,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trello.Core.Entities;
 
 namespace Trello.Core.Repositories
 {
     public interface ICardRepository : IRepository<Trello.Core.Entities.Card>
     {
         //custom operations here
-        Task<IEnumerable<Trello.Core.Entities.Card>> GetEmployeeByLastName(string lastname);
+        Task<Card> GetCardById(Int64 Id);
+        Task<IEnumerable<Card>> GetCardByColumnId(Int64 ColumnId);
+        Task<IEnumerable<Card>> GetCardByUserId(Int64 UserId);
     }
 }

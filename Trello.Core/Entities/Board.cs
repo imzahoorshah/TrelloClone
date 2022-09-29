@@ -20,8 +20,14 @@ namespace Trello.Core.Entities
         public bool? IsPinned { get; set; }
         public bool? IsStarred { get; set; }
         public bool? IsSubscribed { get; set; }
-        public List<Column> Columns { get; set; }
+        public List<Column> Columns { get; set; } = new List<Column>();
         public string Url { get; set; }
+
+        public static explicit operator List<object>(Board v)
+        {
+            throw new NotImplementedException();
+        }
+
         public DateTime? LastActivity { get; set; }
         public DateTime? LastViewed { get; set; }
         public DateTime? Creation { get; set; }

@@ -11,17 +11,24 @@ using Trello.Core.Entities;
 
 namespace Trello.Infrastructure.Repositories
 {
-    public class LabelRepository : Repository<Trello.Core.Entities.Label>, ILabelRepository
+    public class ColumnRepository : Repository<Trello.Core.Entities.Column>, IColumnRepository
     {
-        public LabelRepository(TrelloContext trelloContext) : base(trelloContext)
+        public ColumnRepository(TrelloContext trelloContext) : base(trelloContext)
         {
 
         }
 
-        async Task<IEnumerable<Label>> ILabelRepository.GetEmployeeByLastName(string lastname)
+        async Task<IEnumerable<Column>> IColumnRepository.GetColumnById(Int64 Id)
         {
-            return await _trelloContext.Label
-                 .Where(m => m.Name == lastname)
+            return await _trelloContext.Column
+                 .Where(m => m.ColumnId == Id)
+                 .ToListAsync();
+        }
+
+        async Task<IEnumerable<Column>> IColumnRepository.GetColumnByBoardId(Int64 boardId)
+        {
+            return await _trelloContext.Column
+                 .Where(m => m.BoardId == boardId)
                  .ToListAsync();
         }
     }

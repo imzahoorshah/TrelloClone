@@ -14,9 +14,10 @@ namespace Trello.Core.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
         public Int64 ColumnId { get; set; }
+        public Int64 BoardId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public List<Card> Cards { get; set; }
+        public List<Card> Cards { get; set; } = new List<Card>();
         public DateTime? CreationDate { get; set; }
     }
 }

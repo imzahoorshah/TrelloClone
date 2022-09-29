@@ -10,5 +10,9 @@ namespace Trello.Application.Queries
     public class GetAllCardQuery : IRequest<List<Trello.Core.Entities.Card>>
     {
 
+    } 
+    public class GetCardsByColumnQuery : IRequest<List<Trello.Core.Entities.Card>>
+    {
+        public Int64 ColumnId { get; set; }
     }
 }

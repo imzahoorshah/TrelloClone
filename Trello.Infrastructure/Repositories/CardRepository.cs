@@ -25,6 +25,15 @@ namespace Trello.Infrastructure.Repositories
                 .ToListAsync();
         }
 
+        async Task<IEnumerable<Card>> ICardRepository.GetCardByTag(long LabelId)
+        { 
+            var cardList = await (from cards in _trelloContext.Cards
+                            join labels in _trelloContext.Label on cards.CardId equals labels.CardId
+                            where labels.LabelId == LabelId
+                            select cards).ToListAsync();
+            return cardList;
+        }
+
         async Task<Card> ICardRepository.GetCardById(long Id)
         {
             throw new NotImplementedException();
@@ -35,6 +44,6 @@ namespace Trello.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        
+
     }
 }

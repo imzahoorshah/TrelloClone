@@ -13,6 +13,7 @@ namespace Trello.Core.Repositories
         //custom operations here
         Task<Card> GetCardById(Int64 Id);
         Task<IEnumerable<Card>> GetCardByColumnId(Int64 ColumnId);
+        Task<IEnumerable<Card>> GetCardByTag(Int64 LabelId);
         Task<IEnumerable<Card>> GetCardByUserId(Int64 UserId);
     }
 }

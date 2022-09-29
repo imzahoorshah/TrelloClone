@@ -31,7 +31,15 @@ namespace Trello.API.Controllers
         [Route("[action]")]
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<List<Trello.Core.Entities.Card>> SearchCardByCloumn([FromQuery] GetCardsByColumnQuery query)
+        public async Task<List<Trello.Core.Entities.Card>> SearchCardByColumn([FromQuery] GetCardsByColumnQuery query)
+        {
+            return await _mediator.Send(query);
+        }
+
+        [Route("[action]")]
+        [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<List<Trello.Core.Entities.Card>> SearchCardByTag([FromQuery] GetCardsByTagQuery query)
         {
             return await _mediator.Send(query);
         }

@@ -15,4 +15,9 @@ namespace Trello.Application.Queries
     {
         public Int64 ColumnId { get; set; }
     }
+
+    public class GetCardsByTagQuery : IRequest<List<Trello.Core.Entities.Card>>
+    {
+        public Int64 Label { get; set; }
+    }
 }
